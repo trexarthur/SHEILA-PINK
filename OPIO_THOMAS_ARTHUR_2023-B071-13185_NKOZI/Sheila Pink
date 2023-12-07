@@ -1,0 +1,88 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head><style>body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    font-weight: bold;
+}
+
+#photo-gallery img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+#about img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+footer {
+    font-size: 14px;
+    color: #fff;
+}
+</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheila Pink - Lifestyle Influencer</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-dark text-white text-center p-4">
+        <h1>Sheila Pink</h1>
+        <p>Lifestyle Influencer</p>
+    </header>
+
+    <!-- Photo Gallery Section -->
+    <section id="photo-gallery" class="container mt-5">
+        <h2 class="text-center mb-4">Fashion Inspiration</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <img src="img/photo1.jpg" alt="Fashion Photo 1" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="img/photo2.jpg" alt="Fashion Photo 2" class="img-fluid">
+            </div>
+            <div class="col-md-4">
+                <img src="img/photo3.jpg" alt="Fashion Photo 3" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="container mt-5">
+        <div class="row">
+            <div class="col-md-6">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae elit eget dui tincidunt fermentum. Nulla facilisi. Sed nec ipsum eget mauris consequat tincidunt. Sed ac gravida erat. Mauris non nunc et risus luctus lacinia. Duis ut nunc ac nunc elementum eleifend. Sed euismod, mauris id aliquam tincidunt, nunc nunc tincidunt neque, in pulvinar mi risus in sapien. Nulla facilisi. Sed nec ipsum eget mauris consequat tincidunt.</p>
+            </div>
+            <div class="col-md-6">
+                <img src="img/about.jpg" alt="About Me" class="img-fluid">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-dark text-white text-center p-4">
+        &copy; 2021 Sheila Pink. All rights reserved.
+    </footer>
+
+    <!-- Bootstrap & jQuery JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
+```
+
+
+
+
